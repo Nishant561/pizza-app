@@ -1,0 +1,38 @@
+@import './_variable';
+
+.color{
+    color: $primaryColor;
+}
+
+.bgColor{
+    background-color: $primaryColor;
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hoverColor:hover{
+    color: $primary-hover;
+}
+
+.sh{
+    box-shadow: 0px 1px 10px rgba(0,0,0,.3);
+}
+
+.grider{
+    display: grid;
+    row-gap:45px;
+    grid-template-columns: repeat(auto-fill,minmax(265px, 1fr));
+}
+
+
+
+
+
+
