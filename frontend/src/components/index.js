@@ -11,15 +11,14 @@ import Button from "./Button/Button";
 import Cart from "./Cart/Cart";
 
 export {
-    Home,
-    Menu,
-    Offers,
-    Register,
-    Login,
-    Nav,
-    Footer,
-    Cart,
-    Layout,
-    Button
-   
-}
+  Home,
+  Menu,
+  Offers,
+  Register,
+  Login,
+  Nav,
+  Footer,
+  Cart,
+  Layout,
+  Button,
+};
