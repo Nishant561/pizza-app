@@ -4,7 +4,8 @@
     color: $primaryColor;
 }
 
-.bgColor{
+.bgColor
+{
     background-color: $primaryColor;
 }
 
@@ -32,7 +33,30 @@
 }
 
 
+.hero,
+.empty-cart-container
+{
+    height: calc(100vh - 110.97px);
+}
+
+.non-empty-cart{
+    min-height: calc(100vh - 110.97px); 
+}
+
+.cart{
+    background-color: $secondaryColor;
+}
+
+.items-added{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
 
 
+.register{
+    height: calc(100vh - 110.97px );
+}
 
 

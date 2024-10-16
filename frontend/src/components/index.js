@@ -7,6 +7,8 @@ import Menu from "./Menu/Menu";
 import Offers from "./Offers/Offers";
 import Register from "./Register/Register";
 import Login from "./Login/Login";
+import Button from "./Button/Button";
+import Cart from "./Cart/Cart";
 
 export {
     Home,
@@ -16,6 +18,8 @@ export {
     Login,
     Nav,
     Footer,
+    Cart,
     Layout,
+    Button
    
 }

@@ -1,5 +1,5 @@
 import {createBrowserRouter ,  RouterProvider} from 'react-router-dom'
-import {Home ,Layout ,Menu ,Offers ,Register ,Login} from './../components/index'
+import {Home ,Layout ,Menu,Cart ,Offers ,Register ,Login} from './../components/index'
 import React from 'react'
 
 
@@ -28,6 +28,10 @@ const router = createBrowserRouter([
             {
                 path:'login',
                 element:<Login/>
+            },
+            {
+                path:'cart',
+                element:<Cart/>
             }
 
         ]

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./.././../scss/style.scss";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import logo from "./.././../assets/images/img/logo.png";
 import cart from "./.././../assets/images/img/cart.png";
 
@@ -11,8 +11,10 @@ function Nav() {
     return items.toLowerCase() == "home" ? "/" : `/${items.toLowerCase()}`;
   };
 
+
+
   return (
-    <nav className="flex-container  max-w-[1200px] py-5 mx-auto">
+    <nav  className="flex-container  max-w-[1200px] py-5 mx-auto">
       <div>
         <img className="w-[150px] h-auto" src={logo} alt="logo" />
       </div>
@@ -34,9 +36,9 @@ function Nav() {
             ))}
           </ul>
 
-          <div className="cart-container bgColor transition-all duration-100 ease-linear hover:bg-[#b23301] cursor-pointer w-[70px] flex justify-center py-2 rounded-full">
+          <Link to={'cart'} className="cart-container bgColor transition-all duration-100 ease-linear hover:bg-[#b23301] cursor-pointer w-[70px] flex justify-center py-2 rounded-full">
             <img src={cart} className="  object-contain w-[40%]  " />
-          </div>
+          </Link>
         </div>
       </div>
     </nav>
